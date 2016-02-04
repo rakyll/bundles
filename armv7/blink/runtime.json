@@ -158,6 +158,16 @@
 				"fileMode": 438,
 				"uid": 0,
 				"gid": 0
+			},
+			{
+				"path": "/dev/mem",
+				"type": 99,
+				"major": 1,
+				"minor": 9,
+				"permissions": "rwm",
+				"fileMode": 438,
+				"uid": 0,
+				"gid": 0
 			}
 		],
 		"apparmorProfile": "",
