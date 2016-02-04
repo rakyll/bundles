@@ -172,10 +172,6 @@
 		],
 		"apparmorProfile": "",
 		"selinuxProcessLabel": "",
-		"seccomp": {
-			"defaultAction": "SCMP_ACT_ALLOW",
-			"architectures": null,
-			"syscalls": []
-		}
+		"rootfsPropagation": ""	
 	}
 }
