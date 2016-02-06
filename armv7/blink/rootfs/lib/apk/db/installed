@@ -437,68 +437,29 @@ t:1446036136
 c:e3725c0af137717d6883265a92db3838900b5cee
 D:musl-utils
 
-C:Q1HdqtUIxTn6UHDWtVLlG1ges1rx4=
-P:sudo
-V:1.8.15-r1
+C:Q1jEBxusBMMj/dJK167VvswfMxsoI=
+P:strace
+V:4.10-r0
 A:armhf
-S:298565
-I:724992
-T:Give certain users the ability to run some commands as root
-U:http://www.sudo.ws/sudo/
-L:custom ISC
-o:sudo
+S:153168
+I:393216
+T:A useful diagnositic, instructional, and debugging tool
+U:http://sourceforge.net/projects/strace/
+L:BSD
+o:strace
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1447161979
-c:ad12bb855359c069498ee69eb1b5cb37683f25a9
-D:so:libc.musl-armhf.so.1 so:libz.so.1
-p:so:group_file.so=0 so:libsudo_util.so.0=0.0.0 so:sudo_noexec.so=0 so:sudoers.so=0 so:system_group.so=0
-F:etc
-R:sudoers
-a:0:0:440
-Z:Q1P6iBHgharP1Ce6mWyfB3yXP5Vi4=
-F:etc/sudoers.d
-M:0:0:750
+t:1450466466
+c:bcaf2dc7c02360f7075d66726339cba8410f3833
+D:so:libc.musl-armhf.so.1
 F:usr
-F:usr/lib
-F:usr/lib/sudo
-R:libsudo_util.so
-a:0:0:777
-Z:Q16r1/LjbPXoYHI9eUCtLZtywBUCo=
-R:libsudo_util.so.0.0.0
-a:0:0:755
-Z:Q1oS6cP/sXGXlBofIl1stPFsfTeY8=
-R:libsudo_util.so.0
-a:0:0:777
-Z:Q16r1/LjbPXoYHI9eUCtLZtywBUCo=
-R:system_group.so
-Z:Q1CivFxUgro7dp/cw2PoVehCTPdCg=
-R:group_file.so
-Z:Q1QqcdfmPqe+eSgkjgwDUdls1ouqk=
-R:sudo_noexec.so
-Z:Q1ZsFp/HmHslWltdL7tlAKXUNHqK0=
-R:sudoers.so
-Z:Q1ovz1huLz4gnOfLn7pHVIPwUnpG4=
 F:usr/bin
-R:sudoreplay
+R:strace-graph
 a:0:0:755
-Z:Q1RjlNffiZ4c8oE8iH6z5G0j1gbzk=
-R:sudo
-a:0:0:4755
-Z:Q1PnlNxtsqaMM1+DHL0jMXrdV/hwQ=
-R:sudoedit
-a:0:0:777
-Z:Q1g2xibVLz+y6lQ62J70SOlpFhtb4=
-F:usr/sbin
-R:visudo
+Z:Q12PqN/xFOst19DTcRHqZgKoRt4yg=
+R:strace
 a:0:0:755
-Z:Q1J7KpB5UJSeQRUTwk0Gkv9qLV6ow=
-F:var
-F:var/db
-F:var/db/sudo
-M:0:0:711
-F:var/db/sudo/lectured
-M:0:0:700
-F:var/run
-F:var/run/sudo
-M:0:0:711
+Z:Q1TOmklwhL6d5ymF04XirwZSK3Plk=
+R:strace-log-merge
+a:0:0:755
+Z:Q1mfCBdqSMvEHM9MNvYzKufj8aMdg=
 

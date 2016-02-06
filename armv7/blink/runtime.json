@@ -21,14 +21,6 @@
 				"size=65536k"
 			]
 		},
-		"/dev/mem": {
-			"type": "bind",
-			"source": "/dev/mem",
-			"options": [
-				"rw",
-				"rbind"
-			]
-		},
 		"devpts": {
 			"type": "devpts",
 			"source": "devpts",
@@ -166,8 +158,17 @@
 				"fileMode": 438,
 				"uid": 0,
 				"gid": 0
+			},
+			{
+				"path": "/dev/mem",
+				"type": 99,
+				"major": 1,
+				"minor": 1,
+				"permissions": "rwm",
+				"fileMode": 640,
+				"uid": 0,
+				"gid": 15
 			}
-			
 		],
 		"apparmorProfile": "",
 		"selinuxProcessLabel": "",

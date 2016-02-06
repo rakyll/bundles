@@ -34,10 +34,6 @@
 			"path": "/dev"
 		},
 		{
-			"name": "/dev/mem",
-			"path": "/dev/mem"
-		},
-		{
 			"name": "devpts",
 			"path": "/dev/pts"
 		},
@@ -63,7 +59,7 @@
 			"CAP_SYS_RAWIO",
 			"CAP_AUDIT_WRITE",
 			"CAP_KILL",
-			"CAP_NET_BIND_SERVICE"
+			"CAP_DAC_OVERRIDE"
 		]
 	}
 }
